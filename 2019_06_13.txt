@@ -1,0 +1,30 @@
+﻿<translation strings>
+gettext()는 다국어 지원을 위해 필요함
+=> 확장을 위해 사용하기
+
+lazy는 값에 직접 엑세스할 때 번역해줌(ex 템플릿 렌더링)
+
+사용하는 곳
+- verbos_name/help_text
+- model method short description
+
+<reverse_lazy>
+generic View에서는 reverse_lazy를 사용해야 한다
+그냥 reverse와의 차이점은 로딩 타임으로 보인다
+
+<Draft Pull Request>
+naming, template , add or remove blank lines
+- 커밋 메시지가 좋지 않음
+- 한 번에 하나씩 수정하기
+
+form_style이 중복됨
+- add form_style function
+
+<템플릿 상속->상속>
+extends 'base'
+	extends 'form_base' 가능
+
+<Rename Model>
+Migration을 직접 만들어서 이미 테이블이 존재하는 모델의 이름을 바꿀 수 있다.
+
+url로 주어지는 converter arguments를 template과 CBV에서 사용하기
