@@ -1,0 +1,13 @@
+﻿Pagination의 활용
+- Custom template field
+
+PasswordChangeView 활용
+PasswordResetViews 활용
+- 메일 보내기
+- 실제 사용시 MailGun이나 SendGrid와 같은 이메일 서비스를 사용해야 함
+
+<success_url을 커스텀 html로>
+alert('회원가입 성공');
+location.href = "{% url 'index' %};
+
+form_class를 설정해서 field에 css class를 더해주기
